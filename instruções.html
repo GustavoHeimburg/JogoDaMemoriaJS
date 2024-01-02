@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Instructions</title>
+    <link rel="stylesheet" href="css/instrucao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+</head>
+<body>
+
+<div class="instructions page active">
+    <h1>Modo Casual - Instruções</h1>
+    <p>O jogo terá várias cartas viradas de costas. Ao virá-las, aparecerão os personagens. Tente encontrar todos os pares! Boa sorte.</p>
+
+    <button class="btn" onclick="changePage(2)">Next Page</button>
+    <a class="btn" href="index.html">Voltar</a>
+</div>
+
+<div class="instructions page">
+    <h1>Modo 1x1 - Instruções</h1>
+    <p>Para jogar o modo 1x1, selecione-o na página principal. Cada jogador deve criar uma senha sem que o adversário veja. Cada jogada será alternada entre os jogadores, sem trapaças. Bom jogo!</p>
+
+    <button class="btn" onclick="changePage(3)">Next Page</button>
+    <button class="btn" onclick="changePage(1)">Previous Page</button>
+    <a class="btn" href="index.html">Voltar</a>
+</div>
+
+<div class="instructions page">
+    <h1>Modo Família - Instruções</h1>
+    <p>O jogo terá o modo 4 contra 4 jogadores, proporcionando diversão em momentos familiares. Semelhante ao modo 1x1, mas com um temporizador para ver quem conclui o jogo da memória mais rápido e, no final, com pontuações! Boa sorte.</p>
+
+    <button class="btn" onclick="changePage(2)">Previous Page</button>
+    <a class="btn" href="index.html">Voltar</a>
+</div>
+
+<script src="js/pages.js"></script>
+
+</body>
+</html>
